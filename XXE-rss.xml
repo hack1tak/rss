@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rss [
-  <!ENTITY test "Hello World">
+  <!-- Define parameter entity -->
+  <!ENTITY % inject "<!ENTITY test 'Hello World'>">
+  <!-- Invoke parameter entity inside DTD -->
+  %inject;
 ]>
 <rss version="2.0">
   <channel>
@@ -15,4 +18,5 @@
     </item>
   </channel>
 </rss>
+
 
