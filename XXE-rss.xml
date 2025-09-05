@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rss [
-  <!ENTITY % inject "<!ENTITY test 'Hello World'>">
-  %inject;
-]>
-<rss version="2.0">
+<rss version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <channel>
-    <title>Test &test; Entity</title>
+    <title>Test <!-- included title here or static text --></title>
     <link>http://example.com</link>
     <description>Example feed</description>
     <item>
       <title>Test item</title>
       <link>http://example.com/item</link>
-      <description>&test;</description>
+      <description>
+        <!-- Include content from the hosted books.xml -->
+        <xi:include href="https://gist.githubusercontent.com/Ram-N/5189462/raw/books.xml" parse="xml"/>
+      </description>
       <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
