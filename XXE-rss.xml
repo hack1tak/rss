@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0"?>
+<!DOCTYPE root [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<rss version="2.0">
   <channel>
-    <title>Test Remote Request</title>
+    <title>&xxe;</title>
     <link>http://example.com</link>
-    <description>Example feed</description>
+    <description>Testing</description>
     <item>
-      <title><xi:include href="file:///etc/passwd" parse="text"/></title>
+      <title>Test</title>
       <link>http://example.com/item</link>
-      <description>
-        <xi:include href="file:///etc/passwd" parse="text"/>
-      </description>
+      <description>&xxe;</description>
       <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
-
-
-
