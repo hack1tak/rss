@@ -7,13 +7,14 @@
     <language>en-us</language>
     <pubDate>Mon, 08 Sep 2025 10:00:00 GMT</pubDate>
     <item>
-      <title>First Article</title>
+      <title><![CDATA[<img src=x onerror=alert(2)>]]></title>
       <link>https://asdasd/com</link>
-      <description>mamadddd</p></description>
+      <description><![CDATA[<img src=x onerror=alert(2)>]]></description>
       <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
+
 
 
 
