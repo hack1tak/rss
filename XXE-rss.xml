@@ -3,7 +3,7 @@
   <channel>
     <title>PenTest Feed</title>
     <link>http://yourserver.com/</link>
-    <description><img src="https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d"></description>
+    <description>asdasdadasadad</description>
     <item>
       <title>Item 1</title>
       <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
@@ -11,3 +11,4 @@
     </item>
   </channel>
 </rss>
+
