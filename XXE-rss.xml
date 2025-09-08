@@ -8,12 +8,13 @@
     <pubDate>Mon, 08 Sep 2025 10:00:00 GMT</pubDate>
     <item>
       <title>asd</title>
-      <link>asd://test</link>
-      <description>asd</description>
+      <link>https://test.com</link>
+      <description>body{background:url(javascript:alert(1))}</description>
       <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
+
 
 
 
