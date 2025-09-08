@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>PenTest Feed</title>
-    <link>http://yourserver.com/</link>
-    <description>asdasdadasadad</description>
+    <title>Example RSS Feed</title>
+    <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
+    <description>This is an example RSS feed</description>
+    <language>en-us</language>
+    <pubDate>Mon, 08 Sep 2025 10:00:00 GMT</pubDate>
+
     <item>
-      <title>Item 1</title>
+      <title>First Article</title>
       <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
-      <description>Testing</description>
+      <description>This is the first article in the feed.</description>
+      <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</pubDate>
     </item>
+    
   </channel>
 </rss>
-
