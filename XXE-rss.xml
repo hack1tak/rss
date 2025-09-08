@@ -2,20 +2,21 @@
 <rss version="2.0">
   <channel>
     <title>Example RSS Feed</title>
-    <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
+    <link></link>
     <description>mamad</description>
     <language>en-us</language>
     <pubDate>Mon, 08 Sep 2025 10:00:00 GMT</pubDate>
 
     <item>
       <title>First Article</title>
-      <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
-      <description>mamadddd</description>
-      <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</pubDate>
+      <link>javascript:alert(1)"asd<></link>
+      <description>mamadddd</p></description>
+      <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</p></pubDate>
     </item>
     
   </channel>
 </rss>
+
 
 
 
