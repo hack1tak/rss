@@ -3,16 +3,19 @@
   <channel>
     <title>Example RSS Feed</title>
     <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
-    <description>This is an example RSS feed</description>
+    <description><img src="https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d"></description>
+    <enclosure url="https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d"/>
     <language>en-us</language>
     <pubDate>Mon, 08 Sep 2025 10:00:00 GMT</pubDate>
 
     <item>
       <title>First Article</title>
       <link>https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d</link>
-      <description>This is the first article in the feed.</description>
+      <enclosure url="https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d"/>
+      <description><img src="https://webhook.site/a83fe7cd-8379-4e6c-a25c-e34aa02b868d"></description>
       <pubDate>Mon, 08 Sep 2025 09:00:00 GMT</pubDate>
     </item>
     
   </channel>
 </rss>
+
